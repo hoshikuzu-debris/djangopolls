@@ -1,4 +1,4 @@
 try:
     from .local import *
-except ImportError:
+except:
     from .production import *
